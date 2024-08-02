@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fdfdfd;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ccc;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.personaldetails-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personaldetail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.education-box { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.education-content { 
+    margin: 20px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     }
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.languages-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificates-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificate {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+
+
+.icon-user {
+    color: #3498db; /* change the color of the user icon to a blue color */
+}
+
+.icon-envelope {
+    color: #8bc34a; /* change the color of the envelope icon to a green color */
+}
+
+.icon-phone {
+    color: #e74c3c; /* change the color of the phone icon to a red color */
+}
+
+.icon-location {
+    color: #9b59b6; /* change the color of the location icon to a purple color */
+}
+
+.icon-linkedin {
+    color: #0072b1; /* change the color of the LinkedIn icon to a blue color */
+}
+.icon-envelope {
+    color: #3498db; /* change the color of the envelope icon to a blue color */
+}
+
+.icon-phone {
+    color: #8bc34a; /* change the color of the phone icon to a green color */
+}
+
+.icon-linkedin {
+    color: #0072b1; /* change the color of the LinkedIn icon to a blue color */
+}
+
+.icon-location {
+    color: #9b59b6; /* change the color of the location icon to a purple color */
+}
+.icon-java {
+    color: #ff9900; /* change the color of the Java icon to an orange color */
+}
+
+.icon-html {
+    color: #e34c26; /* change the color of the HTML icon to a red color */
+}
+
+.icon-css {
+    color: #2196f3; /* change the color of the CSS icon to a blue color */
+}
+
+.icon-database {
+    color: #9b59b6; /* change the color of the database icon to a purple color */
+}
+
+.icon-java-advanced {
+    color: #ff9900; /* change the color of the Advanced Java icon to an orange color */
+}
+
+.icon-python {
+    color: #3776ab; /* change the color of the Python icon to a blue color */
+}
+
+.icon-hibernate {
+    color: #8bc34a; /* change the color of the Hibernate icon to a green color */
+}
+
+.icon-spring-mvc {
+    color: #4caf50; /* change the color of the Spring MVC icon to a green color */
+}
+
+.icon-spring-core {
+    color: #4caf50; /* change the color of the Spring Core icon to a green color */
+}
+
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header .logo span {
+    color: #ccc;
+  }
+  
+  .header .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .header .navbar a:hover {
+    background-color: #555;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  section .heading span {
+    color: #ccc;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    /* For mobile devices and tablets */
+    body {
+      padding: 10px;
+    }
+    .header {
+      padding: 10px;
+    }
+    .header .logo {
+      font-size: 18px;
+    }
+    .header .navbar {
+      flex-direction: column;
+    }
+    .header .navbar a {
+      padding: 5px;
+    }
+    section {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* For mobile devices only */
+    body {
+      padding: 5px;
+    }
+    .header {
+      padding: 5px;
+    }
+    .header .logo {
+      font-size: 14px;
+    }
+    .header .navbar a {
+      padding: 2px;
+    }
+    section {
+      padding: 5px;
+    }
+  }
